@@ -1,14 +1,17 @@
 .bg-lila {
-  background-color: #E6D3DF; }
+  background-color: #C2B5BD; }
 
 .header__logo-img {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px; }
 
 .header__menu-lista {
   padding-left: 5rem;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 12px; }
+  font-size: 13px; }
 
 .header li a {
   text-decoration: none;
@@ -28,7 +31,7 @@
 .galeria__fotos h5 {
   margin-bottom: 50px;
   padding-top: 5px;
-  margin-left: 10px;
+  text-align: center;
   font-size: 0.8rem;
   letter-spacing: 5px;
   color: #ADA8A8; }
@@ -76,12 +79,6 @@
   letter-spacing: 5px;
   color: #ADA8A8; }
 
-.sale__cards {
-  align-items: center;
-  padding: 12px;
-  display: grid;
-  align-items: center; }
-
 .sale__card {
   margin-left: 68px;
   margin-bottom: 12px; }
@@ -91,60 +88,62 @@
     align-self: center;
     padding: 5px; }
 
-.ecofriendly__bloque {
-  display: flex;
-  justify-content: center;
-  flex-flow: row;
-  padding-bottom: 100px; }
-
-.ecofriendly__contenedor {
-  margin-left: 50px;
-  margin-right: 30px; }
-
-.ecofriendly__imagen img {
-  transition: 1s;
-  width: 15rem;
-  border-radius: 50%; }
-
-.ecofriendly__imagen img:hover {
-  filter: drop-shadow(10px 10px 10px grey); }
-
 .ecofriendly__titulo, .atumedida__titulo, .sobremi__titulo {
   margin-bottom: 50px;
   padding-top: 80px;
-  margin-left: 26px;
+  margin-left: 30px;
   letter-spacing: 5px;
   color: #ADA8A8; }
 
 .ecofriendly__texto {
-  font-size: 5px;
+  font-size: 15px;
   text-align: center;
   color: #ADA8A8;
   padding-top: 10px; }
 
-.ecofriendly__parrafo {
+.ecofriendly__bloque {
+  padding-bottom: 10px; }
+
+.ecofriendly__contenedor h6 {
   font-size: 20px;
   text-align: center;
   color: #ADA8A8;
-  padding-top: 10px; }
+  padding-top: 15px; }
+
+.ecofriendly__contenedor img {
+  transition: 1s;
+  width: 16rem;
+  border-radius: 50%; }
+
+.ecofriendly__contenedor img:hover {
+  filter: drop-shadow(10px 10px 10px grey); }
+
+.ecofriendly__plantable p {
+  font-size: 15px;
+  text-align: center;
+  color: #ADA8A8;
+  padding-top: 10px;
+  letter-spacing: 5px;
+  margin-left: 30px; }
 
 .atumedida__bloque {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .atumedida__img img {
-  border-radius: 2%;
-  width: 25rem;
-  height: 25rem; }
+  width: 40rem; }
 
 .atumedida__texto {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: #ADA8A8;
-  padding-top: 100px; }
+  padding-top: 10px; }
+
+.sobremi__bloque p {
+  font-size: 15px;
+  text-align: center;
+  color: #ADA8A8;
+  padding-top: 10px; }
 
 .sobremi__img img {
   border-radius: 50%;
@@ -160,3 +159,24 @@ footer h3 {
   text-align: center;
   color: white;
   font-size: 15px; }
+
+.footer__columna2iconos {
+  display: flex;
+  flex-flow: row;
+  justify-content: center; }
+  .footer__columna2iconos img {
+    width: 27px;
+    height: 23px;
+    padding-right: 4px; }
+  .footer__columna2iconos a {
+    text-decoration: none;
+    color: black; }
+
+.footer__columna3iconos {
+  display: flex;
+  flex-flow: row;
+  justify-content: center; }
+  .footer__columna3iconos img {
+    width: 27px;
+    height: 23px;
+    padding-right: 4px; }
